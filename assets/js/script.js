@@ -85,7 +85,7 @@ let person = {
     }
 
 }
-console.log(`my name is ${person.name , person['middlename']} ${person ['lastname']} `)
+console.log(`my name is ${person.name}  ${person['middlename']} ${person ['lastname']} `)
 // console.log (`${person.name} and I am ${person.age} years old, living in ${person.state}   ` )
 // console.log(person.greet())
 
