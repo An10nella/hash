@@ -1,37 +1,37 @@
-const accounts01 = [['admin01 , 123'], ['admin02 , 234'],['admin03 , 345']]
-const accounts02 = {admin01 : "123" , admin02 :"234", admin03 :"345"}
+// const accounts01 = [['admin01 , 123'], ['admin02 , 234'],['admin03 , 345']]
+// const accounts02 = {admin01 : "123" , admin02 :"234", admin03 :"345"}
 // 1 key = many values
-let users = { // key
+// let users = { // key
 
-    users01:{ // key
+//     users01:{ // key
 
-    name:"ahmad", //key : value
-    age:"30" , 
-    state:"beirut"
-    },
+//     name:"ahmad", //key : value
+//     age:"30" , 
+//     state:"beirut"
+//     },
 
-    users02:{
+//     users02:{
         
-    name:"ali", 
-    age:"67" 
+//     name:"ali", 
+//     age:"67" 
        
-    },
+//     },
 
-    users02:{
+//     users02:{
         
-    name:"mohamed", 
-    age:"89" 
+//     name:"mohamed", 
+//     age:"89" 
         
-    },
+//     },
 
-    users04:{
+//     users04:{
         
-    name:"mouad", 
-    age:"12"
+//     name:"mouad", 
+//     age:"12"
         
-    }
+//     }
 
-}
+// }
 
 
 
@@ -43,21 +43,31 @@ let users = { // key
 // console.log(accounts02.accounts03)
 
 // let admin = prompt("enter username")
-function main (){
-    if (admin in accounts02){
+// function main (){
+//     if (admin in accounts02){
     
-        console.log(`welcome ${admin} you pass is :${accounts02[admin]}`)
-    }else{
-        console.log('you are not registered')
-    }
+//         console.log(`welcome ${admin} you pass is :${accounts02[admin]}`)
+//     }else{
+//         console.log('you are not registered')
+//     }
 
-}
-main()
-function getAge(){
-    let name = prompt("enter your name")
-    if(users.name == name){
-        console.log(`${users.name} is ${users.age} years old`)
-    }else{
-        console.log(`wrong name checkout these name ${users.name} `)
-    }
-}
+// }
+// main()
+// function getAge(){
+//     let name = prompt("enter your name")
+//     if(users.name == name){
+//         console.log(`${users.name} is ${users.age} years old`)
+//     }else{
+//         console.log(`wrong name checkout these name ${users.name} `)
+//     }
+// }
+
+        //   [0,1,2,3,4] INDEX
+// let number = [1,2,3,4,5]
+// console.log(number.length-1)
+// let sliced = number.slice(0,4) //(index, take abel ekhir index ) = slice
+// console.log(number.length-1)
+// console.log(sliced)
+// console.log(number)
+// number.splice(1,3,20,30,40,50)  // (interval index , replacement)
+// console.log(number)
