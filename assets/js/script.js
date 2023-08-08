@@ -71,3 +71,16 @@
 // console.log(number)
 // number.splice(1,3,20,30,40,50)  // (interval index , replacement)
 // console.log(number)
+
+let person = {
+    name : "ahmad" ,
+    age : "33",
+    state : "beirut" ,
+    greet : function(){
+        console.log(`hello my name is ${this.name}`) // bi aleb l parenthese : parameter , barra bi sammouwon argument
+        // let v = value
+    }
+
+}
+alert (`${person.name} ` )
+
