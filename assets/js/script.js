@@ -77,10 +77,12 @@ let person = {
     age : "33",
     state : "beirut" ,
     greet : function(){
-        console.log(`hello my name is ${this.name}`) // bi aleb l parenthese : parameter , barra bi sammouwon argument
+        console.log(`hello my name is ${person.name}`) // bi aleb l parenthese : parameter , barra bi sammouwon argument
         // let v = value
     }
 
 }
-alert (`${person.name} ` )
+console.log (`${person.name} and I am ${person.age} years old, living in ${person.state}   ` )
+console.log(person.greet())
+
 
